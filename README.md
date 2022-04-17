@@ -1,9 +1,12 @@
-[![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://github.com/Gameye98)  
+[![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://github.com/Gameye98)
 
 [![BlackHole Security](.gitbhs.svg)](https://github.com/BlackHoleSecurity)
 
+**Modified by hltdev [hltdev8642@gmail.com]**
+**[Modified to save files to current working directory instead of py file location]**
+
 # ddcrypt
-just deobfuscator tool for droidscript apk, if you have the main script of the app, you can deobfuscate the script,  
+just deobfuscator tool for droidscript apk, if you have the main script of the app, you can deobfuscate the script,
 the main script of an app actually written in javascript and you can find the main script by extract apk source and take the script on this path: assets/user
 
 ## Contributing

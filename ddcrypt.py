@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 # ddcrypt v1.1 - by Gameye98/DedSecTL
 # droidscript deobfuscator - note that when droidscript update, their app function code will always change
 # so dont blame me if you found the function code its not match with real function code, i dont think you understand what ive said
@@ -23,7 +24,8 @@ else:
 	try:
 		filepath = sys.argv[1]
 		filename = filepath.split("/")[len(filepath.split("/"))-1]
-		destdir = sys.argv[0][0:len(sys.argv[0])-len(sys.argv[0].split("/")[-1])]
+		# destdir = sys.argv[0][0:len(sys.argv[0])-len(sys.argv[0].split("/")[-1])]
+		destdir = ((os.path.abspath(os.path.curdir)) + "/")
 		if os.path.exists(sys.argv[1]):
 			if os.path.isfile(filepath):
 				print("[ddcrypt] starting...")
